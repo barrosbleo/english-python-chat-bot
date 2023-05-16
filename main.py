@@ -3,7 +3,7 @@ import pyttsx3 as tts
 import speech_recognition as sr
 
 # main variables
-OPENAI_KEY = "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"
+OPENAI_KEY = "PLACE YOUR KEY HERE"
 MODEL_ENGINE = "gpt-3.5-turbo"
 messages = [
     {"role": "system", "content": "You are a chatbot made to help me learn English. You should talk with me so I can improve my English conversation skills. You should also start the conversation, considering that we just met at the street."},
